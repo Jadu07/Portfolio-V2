@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+/* Reset base styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: white;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Basic smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Optimize scrolling performance */
+* {
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Section spacing */
+section {
+  position: relative;
+  width: 100%;
+  padding: 1rem 0;
+  background: white;
+  scroll-snap-align: start;
+}
+
+/* Ensure content doesn't overlap */
+.min-h-screen {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Scroll snap container */
+.snap-y {
+  scroll-snap-type: y mandatory;
+  overflow-y: auto;
+  height: 100vh;
+}
+
+.snap-mandatory {
+  scroll-snap-type: y mandatory;
+}
+
+.snap-start {
+  scroll-snap-align: start;
+}
+
+/* Hide scrollbar for cleaner look */
+.snap-y::-webkit-scrollbar {
+  display: none;
+}
+
+/* Firefox scrollbar */
+.snap-y {
+  scrollbar-width: none;
+}
+
+/* Ensure proper stacking */
+main {
+  position: relative;
+  z-index: 1;
+}
+
+/* Ensure navbar stays on top */
+nav {
+  position: fixed;
+  z-index: 50;
+}
+
+/* Footer positioning */
+footer {
+  position: relative;
+  z-index: 2;
+  scroll-snap-align: none;
+}
