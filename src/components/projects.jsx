@@ -1,37 +1,41 @@
 import React from 'react';
+import quickSnatch from '../assets/quick-snatch.png'
+import codefoad from '../assets/codefoad.png'
+import amazonclone from '../assets/amazonclone.png'
+import portfolioV1 from '../assets/portfolio-v1.png'
 
 const projects = [
   {
-    title: 'Reporter News',
-    description: 'A mobile and web platform for a leading news broadcaster.',
-    image: 'https://picsum.photos/seed/newsapp/600/400',
-    bgColor: 'bg-rose-50',
-    github: 'https://github.com/yourusername/reporter-news',
-    liveDemo: 'https://reporternews.vercel.app/',
-  },
-  {
-    title: 'Storedada Dashboard',
-    description: 'An enterprise solution for in-house ecommerce management.',
-    image: 'https://picsum.photos/seed/dashboardui/600/400',
+    title: 'Quick Snatch',
+    description: 'A React-based web game for quick reflexes and sharp decision-making.',
+    image: quickSnatch,
     bgColor: 'bg-indigo-50',
-    github: 'https://github.com/yourusername/storedada-dashboard',
-    liveDemo: 'https://storedada.vercel.app/',
+    github: 'https://github.com/Jadu07/Quick-Snatch',
+    liveDemo: 'https://quick-snatch-chi.vercel.app',
   },
   {
-    title: 'TT Devassy',
-    description: 'A B2C ecommerce mobile app for premium jewellery shopping.',
-    image: 'https://picsum.photos/seed/jewelleryapp/600/400',
-    bgColor: 'bg-sky-50',
-    github: 'https://github.com/yourusername/tt-devassy',
-    liveDemo: 'https://ttdevassy.vercel.app/',
+    title: 'Codefoad',
+    description: 'A responsive website using Html and Css to learn fundamentals of coding.',
+    image:  codefoad,
+    bgColor: 'bg-teal-50',
+    github: 'https://github.com/Jadu07/CodeFoad',
+    liveDemo: 'https://codefoad.vercel.app/',
   },
   {
-    title: 'Vidya Portal Case Study',
+    title: 'Amazon Clone',
+    description: 'A simple front-end clone of the Amazon homepage built with only HTML and CSS.',
+    image: amazonclone,
+    bgColor: 'bg-rose-50',
+    github: 'https://github.com/Jadu07/Amazon-Clone',
+    liveDemo: 'https://amazon-neon-one.vercel.app/',
+  },
+  {
+    title: 'Portfolio V1',
     description: 'A no-code portal to customize and duplicate educational templates.',
-    image: 'https://picsum.photos/seed/vidyaportal/600/400',
-    bgColor: 'bg-yellow-50',
-    github: 'https://github.com/yourusername/vidya-portal',
-    liveDemo: 'https://vidyaportal.vercel.app/',
+    image: portfolioV1,
+    bgColor: 'bg-sky-50',
+    github: 'https://github.com/Jadu07/Portfolio',
+    liveDemo: 'https://jadu-one.vercel.app/',
   },
 ];
 

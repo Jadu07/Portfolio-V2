@@ -2,28 +2,28 @@ import React from 'react';
 
 const timeline = [
   {
-    year: "2023 - Present",
+    year: "2024 - Present",
     title: "B.Tech in Computer Science",
     organization: "Newton School of Technology, Pune",
     description: "Currently pursuing Computer Science Engineering with focus on full-stack development and data structures."
   },
   {
-    year: "2023",
-    title: "WordPress Developer Intern",
+    year: "2024",
+    title: "WordPress Developer Freelancer",
     organization: "Himanshi IT Solutions",
-    description: "Created and maintained client websites, implemented custom themes and plugins."
+    description: "Created and maintained client pages, implemented custom features."
   },
   {
     year: "2021 - 2023",
     title: "Higher Secondary Education",
     organization: "Silver Bells Convent School, Bhopal",
-    description: "PCM with distinction in mathematics and computer science."
+    description: "PCM with distinction in computer science."
   },
   {
     year: "2019 - 2021",
     title: "Secondary Education",
     organization: "Sagar Public School, Bhopal",
-    description: "Outstanding performance in mathematics and science subjects."
+    description: "Built a strong academic foundation in mathematics and science."
   }
 ];
 
@@ -31,23 +31,23 @@ const codingProfiles = [
   {
     platform: "LeetCode",
     username: "jadu07",
-    stats: "300+ problems solved",
+    stats: "100+ problems solved",
     link: "https://leetcode.com/jadu07",
-    icon: "https://leetcode.com/_next/static/images/logo-dark-c96c407d175e36c81e236fcfdd682a0b.png",
+    icon: "https://cdn.iconscout.com/icon/free/png-512/free-leetcode-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-vol-4-pack-logos-icons-2944960.png?f=webp&w=512",
     bgColor: "hover:bg-orange-50"
   },
   {
     platform: "CodeChef",
     username: "jadu07",
-    stats: "2⭐ coder (1622)",
+    stats: "rating @ 1190",
     link: "https://www.codechef.com/users/jadu07",
-    icon: "https://cdn.codechef.com/images/cc-logo.svg",
+    icon: "https://ugc.production.linktr.ee/9e405674-7e6a-44db-a9ca-d112ea037c20_codecheficon.png",
     bgColor: "hover:bg-red-50"
   },
   {
     platform: "GitHub",
     username: "jadu07",
-    stats: "50+ repositories",
+    stats: "20+ repositories",
     link: "https://github.com/jadu07",
     icon: "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
     bgColor: "hover:bg-gray-50"
@@ -62,7 +62,7 @@ const About = () => {
         <div className="space-y-4 text-center md:text-left mb-16">
           <h2 className="text-2xl font-medium text-gray-500 mb-2">Who I Am</h2>
           <h1 className="text-5xl font-bold text-gray-900">About Me</h1>
-          <div className="h-1 w-20 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 rounded-full mx-auto md:mx-0"></div>
+          <div className="h-1 w-100 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 rounded-full mx-auto md:mx-0"></div>
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">

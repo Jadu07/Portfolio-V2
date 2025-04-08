@@ -36,7 +36,7 @@ const contacts = [
           <div className="space-y-4 text-center md:text-left mb-12">
             <h2 className="text-2xl font-medium text-gray-500 mb-2">Get in Touch</h2>
             <h1 className="text-5xl font-bold text-gray-900">Contact Me</h1>
-            <div className="h-1 w-20 bg-black rounded-full mx-auto md:mx-0"></div>
+            <div className="h-1 w-100 bg-black rounded-full mx-auto md:mx-0"></div>
             <p className="text-lg text-gray-700 mt-4">
               Feel free to reach out for collaborations or just a friendly hello 😄
             </p>
