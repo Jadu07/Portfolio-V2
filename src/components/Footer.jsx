@@ -7,10 +7,9 @@ const Footer = () => {
     <footer className="w-full bg-white border-t border-gray-200">
       <div className="w-[90%] max-w-5xl mx-auto py-8">
         <div className="flex flex-col md:flex-row justify-between items-center gap-4">
-          {/* Logo and Copyright */}
           <div className="flex flex-col items-center md:items-start gap-2">
             <div className="text-xl bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text">
-              <span className="text-2xl">J</span>ADU.LIVE
+              <span className="text-2xl">J</span>ADU07 ™
             </div>
             <p className="text-sm text-gray-600">
               © {currentYear} Yashraj Chouhan. All rights reserved.
@@ -31,7 +30,6 @@ const Footer = () => {
               </a>
             </div>
 
-            {/* Social Links */}
             <div className="flex space-x-4">
               <a
                 href="https://github.com/yourusername"
@@ -67,14 +65,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Made with love section */}
-        {/* <div className="mt-8 text-center text-sm text-gray-500">
-          <p>
-            Made with{' '}
-            <span className="text-red-500">❤️</span>{' '}
-            using React & Tailwind CSS
-          </p>
-        </div> */}
       </div>
     </footer>
   );

@@ -7,10 +7,12 @@ import Projects from "./components/projects";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import MobileWarning from "./components/MobileWarning";
 
 function App() {
   return (
     <div className="relative bg-white">
+      <MobileWarning />
       <Navbar />
       
       <div className="snap-y snap-mandatory h-screen overflow-y-auto">

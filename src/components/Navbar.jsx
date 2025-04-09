@@ -36,9 +36,9 @@ const Navbar = () => {
       <div className="flex justify-between items-center">
         <div 
           onClick={() => scrollToSection('home')}
-          className="text-xl bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text cursor-pointer"
+          className="text-xl bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 text-transparent bg-clip-text cursor-pointer "
         >
-          <span className="text-2xl">J</span>AADU.ME
+          <span className="text-2xl">J</span>ADU07 ™
         </div>
 
         <div className="flex space-x-8 text-lg font-medium m-4">
