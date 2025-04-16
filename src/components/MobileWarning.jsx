@@ -1,19 +1,34 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 
 const MobileWarning = () => {
-  // Simple client-side checks
   const isMobile = typeof window !== 'undefined' && window.innerWidth <= 768;
-  const hasAccepted = typeof window !== 'undefined' && localStorage.getItem('mobileViewAccepted');
+
+  useEffect(() => {
+    if (isMobile) {
+      const trackVisitor = async () => {
+        try {
+          const response = await fetch("https://api.ipapi.is/?q=");
+          const data = await response.json();
+          console.log("Mobile Visitor Info:", {
+            ip: data.ip,
+            city: data.city,
+            country: data.country,
+            region: data.region,
+            timezone: data.timezone,
+            userAgent: navigator.userAgent
+          });
+        } catch (error) {
+          console.error("Error tracking visitor:", error);
+        }
+      };
+
+      trackVisitor();
+    }
+  }, [isMobile]);
   
-  if (!isMobile || hasAccepted) {
+  if (!isMobile) {
     return null;
   }
-
-  const handleContinue = () => {
-    localStorage.setItem('mobileViewAccepted', 'true');
-    // Force a reload to update the view
-    window.location.reload();
-  };
 
   // Prevent scrolling and hide content behind warning
   if (typeof document !== 'undefined') {
@@ -28,7 +43,7 @@ const MobileWarning = () => {
         </h2>
         
         <button
-          onClick={handleContinue}
+          onClick={() => window.location.reload()}
           className="border-2 border-black px-8 py-3 text-black text-base font-medium hover:bg-black hover:text-white transition-colors"
         >
           Continue

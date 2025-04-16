@@ -11,8 +11,9 @@ const skills = [
   { name: "Python", level: "Advanced", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg", color: "hover:text-blue-600" },
   { name: "MySQL", level: "Basic", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg", color: "hover:text-orange-600" },
   { name: "WordPress", level: "Advanced", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/wordpress/wordpress-original.svg", color: "hover:text-blue-700" },
-  { name: "Photoshop", level: "Advanced", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/photoshop/photoshop-line.svg", color: "hover:text-blue-800" },
+  { name: "TypeScript", level: "Intermediate", logo: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg", color: "hover:text-blue-800" },
   { name: "Supabase", level: "Basic", logo: "https://avatars.githubusercontent.com/u/54469796?s=200&v=4", color: "hover:text-green-600" },
+  
 ];
 
 const SkillsSection = () => {

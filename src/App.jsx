@@ -8,10 +8,12 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import MobileWarning from "./components/MobileWarning";
+import VisitorTracker from "./components/VisitorTracker";
 
 function App() {
   return (
     <div className="relative bg-white">
+      <VisitorTracker />
       <MobileWarning />
       <Navbar />
       

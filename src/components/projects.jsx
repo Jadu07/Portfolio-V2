@@ -3,8 +3,17 @@ import quickSnatch from '../assets/quick-snatch.png'
 import codefoad from '../assets/codefoad.png'
 import amazonclone from '../assets/amazonclone.png'
 import portfolioV1 from '../assets/portfolio-v1.png'
+import wordverse from '../assets/wordverse.png'
 
 const projects = [
+  {
+    title: 'Word Verse',
+    description: 'A simple and fast dictionary app to look up word meanings and more.',
+    image: wordverse,
+    bgColor: 'bg-purple-50',
+    github: 'https://github.com/Jadu07/Word-Verse',
+    liveDemo: 'https://word-verse.vercel.app',
+  },
   {
     title: 'Quick Snatch',
     description: 'A React-based web game for quick reflexes and sharp decision-making.',
@@ -17,7 +26,7 @@ const projects = [
     title: 'Codefoad',
     description: 'A responsive website using Html and Css to learn fundamentals of coding.',
     image:  codefoad,
-    bgColor: 'bg-teal-50',
+    bgColor: 'bg-blue-50',
     github: 'https://github.com/Jadu07/CodeFoad',
     liveDemo: 'https://codefoad.vercel.app/',
   },
@@ -25,7 +34,7 @@ const projects = [
     title: 'Amazon Clone',
     description: 'A simple front-end clone of the Amazon homepage built with only HTML and CSS.',
     image: amazonclone,
-    bgColor: 'bg-rose-50',
+    bgColor: 'bg-fuchsia-50',
     github: 'https://github.com/Jadu07/Amazon-Clone',
     liveDemo: 'https://amazon-neon-one.vercel.app/',
   },
@@ -33,10 +42,11 @@ const projects = [
     title: 'Portfolio V1',
     description: 'A no-code portal to customize and duplicate educational templates.',
     image: portfolioV1,
-    bgColor: 'bg-sky-50',
+    bgColor: 'bg-zinc-50',
     github: 'https://github.com/Jadu07/Portfolio',
     liveDemo: 'https://jadu-one.vercel.app/',
   },
+  
 ];
 
 const ProjectsSection = () => {
