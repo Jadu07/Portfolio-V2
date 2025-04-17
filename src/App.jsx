@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import Navbar from "./components/Navbar";
 import "./App.css";
 import Hero from "./components/Hero";
@@ -8,12 +8,18 @@ import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import MobileWarning from "./components/MobileWarning";
-import VisitorTracker from "./components/VisitorTracker";
+import ReactGA from "react-ga4";
+
 
 function App() {
+
+  useEffect(() => {
+    ReactGA.initialize("G-P8QRT7JYRY");
+    ReactGA.send("pageview");
+  }, []);
+
   return (
     <div className="relative bg-white">
-      <VisitorTracker />
       <MobileWarning />
       <Navbar />
       
