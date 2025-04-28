@@ -4,8 +4,26 @@ import codefoad from '../assets/codefoad.png'
 import amazonclone from '../assets/amazonclone.png'
 import portfolioV1 from '../assets/portfolio-v1.png'
 import wordverse from '../assets/wordverse.png'
+import nexload from '../assets/nexload.png'
+import randomizer from '../assets/randomizer.png'
 
 const projects = [
+  {
+    title: 'Nexload',
+    description: 'A platform to upload and download resources like Web Templates, Icons, Fonts, and More',
+    image: nexload,
+    bgColor: 'bg-pink-50',
+    github: 'https://github.com/Jadu07/nexload',
+    liveDemo: 'https://nexload.vercel.app/',
+  },
+  {
+    title: 'The Randomizer',
+    description: 'LMS website created in Wordpress for offering free Courses. DEMO User ID: NST and Password: Newton',
+    image: randomizer,
+    bgColor: 'bg-blue-50',
+    github: 'https://www.notion.so/WordPress-Websites-Do-Not-Have-GitHub-Repositories-1e3faad478c1804d972ecb0016075481?pvs=4',
+    liveDemo: 'https://therandomizers.epizy.com/',
+  },
   {
     title: 'Word Verse',
     description: 'A simple and fast dictionary app to look up word meanings and more.',
