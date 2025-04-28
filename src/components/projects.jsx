@@ -4,8 +4,8 @@ import codefoad from '../assets/codefoad.png'
 import amazonclone from '../assets/amazonclone.png'
 import portfolioV1 from '../assets/portfolio-v1.png'
 import wordverse from '../assets/wordverse.png'
-import nexload from '../assets/nexload.png'
-import randomizer from '../assets/randomizer.png'
+import nexload from '../assets/Nexload.png'
+import randomizer from '../assets/Randomizer.png'
 
 const projects = [
   {

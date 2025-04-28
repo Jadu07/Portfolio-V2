@@ -6,7 +6,6 @@ const HeroBanner = () => {
       <div className="w-[90%] max-w-5xl mx-auto">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-16">
           
-          {/* Left Content */}
           <div className="flex-1 text-center md:text-left space-y-8">
             <div className="space-y-4">
               <h2 className="text-2xl ml-1 font-medium text-gray-500">Hello, I'm</h2>
@@ -27,7 +26,6 @@ const HeroBanner = () => {
               </div>
             </div>
 
-            {/* Buttons */}
             <div className="flex flex-col sm:flex-row items-center gap-6 justify-center md:justify-start">
               <a href="https://drive.google.com/file/d/1M6biyRrmuJxEXkXIs2zfJpx4aq04m-C7/view?usp=sharing" 
                  className="px-8 py-3 border-2 border-black text-black rounded-full font-medium hover:bg-black hover:text-white transition-all w-fit">

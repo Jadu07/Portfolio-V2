@@ -30,7 +30,6 @@ const MobileWarning = () => {
     return null;
   }
 
-  // Prevent scrolling and hide content behind warning
   if (typeof document !== 'undefined') {
     document.body.style.overflow = 'hidden';
   }

@@ -16,7 +16,6 @@ const Footer = () => {
             </p>
           </div>
 
-          {/* Navigation */}
           <div className="flex flex-col md:flex-row items-center gap-6">
             <div className="flex space-x-6">
               <a href="#works" className="text-sm text-gray-600 hover:text-gray-900 transition">

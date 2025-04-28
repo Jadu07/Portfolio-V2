@@ -58,7 +58,6 @@ const About = () => {
   return (
     <section id="about" className="w-full min-h-screen flex items-center bg-white">
       <div className="w-[90%] max-w-5xl mx-auto py-20">
-        {/* Header */}
         <div className="space-y-4 text-center md:text-left mb-16">
           <h2 className="text-2xl font-medium text-gray-500 mb-2">Who I Am</h2>
           <h1 className="text-5xl font-bold text-gray-900">About Me</h1>
@@ -66,9 +65,7 @@ const About = () => {
         </div>
 
         <div className="grid lg:grid-cols-2 gap-16">
-          {/* Left Column - Bio and Coding Profiles */}
           <div className="space-y-8">
-            {/* Profile Image with Gradient */}
             <div className="relative group">
               <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 via-purple-500 to-pink-500 rounded-3xl blur opacity-25 group-hover:opacity-40 transition duration-1000"></div>
               <div className="relative">
@@ -85,7 +82,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* Bio */}
             <div className="space-y-6">
               <p className="text-gray-700 leading-relaxed">
                 I'm a Computer Science student at Newton School of Technology, passionate about creating innovative solutions 
@@ -94,7 +90,6 @@ const About = () => {
               </p>
             </div>
 
-            {/* Coding Profiles Cards */}
             <div className="space-y-4">
               <h3 className="text-xl font-semibold text-gray-900 mb-6">Coding Profiles</h3>
               <div className="grid grid-cols-3 gap-4">
@@ -123,7 +118,6 @@ const About = () => {
             </div>
           </div>
 
-          {/* Right Column - Timeline */}
           <div className="space-y-8">
             <h3 className="text-xl font-semibold text-gray-900">Education & Experience</h3>
             <div className="space-y-6">
